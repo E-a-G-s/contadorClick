@@ -1,0 +1,49 @@
+
+section{
+    text-align: center;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+   
+
+}
+
+h1{
+    text-align: center;
+    margin-top: auto;
+}
+
+#btnClick{
+    border:none;
+    border-radius: 20px;
+    padding: 15px;
+    background-color:cyan;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+
+}
+
+#btnClickReset{
+   
+    border:none;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: crimson;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+#btnClick:hover{
+    background-color: rgb(174, 197, 186);
+}
+
+#contadorClick{
+    font-size: 100px;
+    font-weight: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+}
